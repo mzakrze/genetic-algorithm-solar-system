@@ -1,0 +1,68 @@
+{
+  "problem_instance" : {
+    "rocket_mass" : 1000,
+    "target_planet": 4
+  },
+  "algorithm_properties" : {
+    "populations" : 10,
+    "population_size" : 100,
+    "cross_over_method" : "TODO",
+    "mutation_method" : "TODO",
+    "selection_method" : "TODO",
+    "time_precision" : "TODO - czas pomiedzy kolejnymi uaktualnieniami wektora predkosci i polozania",
+    "fuel_coord" : 0,
+    "waiting_time_coord" : 0,
+    "vicinity_coord" : 1.0
+  },
+  "solar_system" : [
+    {
+      "radius" : 0,
+      "period" : 0,
+      "mass" : 1989100000,
+      "name" : "Sun",
+      "angle_at_epoch_begin" : 0
+    },
+    {
+      "radius" : 57909170,
+      "period" : 87.969,
+      "mass" : 330.2,
+      "name" : "Mercury",
+      "angle_at_epoch_begin" : 0
+    },
+    {
+      "radius" : 108208926,
+      "period" : 224.701,
+      "mass" : 4868.5,
+      "name" : "Venus",
+      "angle_at_epoch_begin" : 0
+    },
+      {
+      "radius" : 149597887,
+      "period" : 365.256,
+      "mass" : 5974.2,
+      "name" : "Earth",
+      "angle_at_epoch_begin" : 0
+    },
+    {
+      "radius" : 227936637,
+      "period" : 686.960,
+      "mass" : 641.9,
+      "name" : "Mars",
+      "angle_at_epoch_begin" : 0
+    },
+    {
+      "radius" : 778412027,
+      "period" : 4333.287,
+      "mass" : 1898600.8,
+      "name" : "Jupiter",
+      "angle_at_epoch_begin" : 0
+    },
+    {
+      "radius" : 1426725413,
+      "period" : 10756.200,
+      "mass" : 568516.8,
+      "name" : "Saturn",
+      "angle_at_epoch_begin" : 0
+    }
+  ]
+}
